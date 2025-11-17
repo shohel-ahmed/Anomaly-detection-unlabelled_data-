@@ -3,9 +3,6 @@ import os
 # ADAPT File paths
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 CONTAMINATION_RATIO = 0.001
-PII_SAMPLE_SIZE = 2000
-PROFILING_SAMPLE_ROWS = 100_000
-FORMATTED_ADDRESS_SAMPLE_SIZE = 100
 
 # Miscellaneous constants
 MAX_RETRIES = 5
@@ -28,5 +25,6 @@ LOG_LEVEL_ERROR = "ERROR"
 
 # API settings
 TIMEOUT = 30  # seconds
+
 
 
