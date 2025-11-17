@@ -45,14 +45,14 @@ It also includes a robust preprocessing pipeline (datetime handling, data imputa
 from data_validation_ISO import MLAnomalyDetection
 
 if __name__ == "__main__":
-    # Where your data files live
+    # Your data location path
     target_path = "./data"
 
     # File base name (without extension): expects `your_table.csv` or `your_table.parquet`
     file_name = "your_table"
 
-    # Optional: cap per-tree sample size for Isolation Forest (stability on very large data)
-    iforest_max_samples = 10000
+    # Optional: sample size for Isolation Forest (stability on very large data)
+    iforest_max_samples = 100000
 
     anomaly_obj = MLAnomalyDetection(
         target_path=target_path,
