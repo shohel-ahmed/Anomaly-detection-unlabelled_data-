@@ -25,8 +25,8 @@ from sklearn.model_selection import RandomizedSearchCV
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import LabelEncoder, MinMaxScaler, OneHotEncoder, OrdinalEncoder, StandardScaler
 
-from ADAPT.constants import CONTAMINATION_RATIO
-from ADAPT.utils.utility import Utility
+from constants import CONTAMINATION_RATIO
+from utils.utility import Utility
 
 
 # =========================
