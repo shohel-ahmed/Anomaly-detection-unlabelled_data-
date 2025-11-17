@@ -1,6 +1,6 @@
 import os
 
-# ADAPT File paths
+# project File paths
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 CONTAMINATION_RATIO = 0.001
 
@@ -25,6 +25,7 @@ LOG_LEVEL_ERROR = "ERROR"
 
 # API settings
 TIMEOUT = 30  # seconds
+
 
 
 
